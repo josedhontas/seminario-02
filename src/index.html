@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>N-Rainhas — Visualizador Interativo</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="sidebar">
+    <h1>N-Rainhas</h1>
+
+    <h2>Configuração</h2>
+    <label for="nValue">N (tamanho do tabuleiro)</label>
+    <input type="number" id="nValue" value="8" min="4" max="14">
+
+    <div id="mode-info">
+        <b>Dica:</b> N grande cresce MUITO rápido (backtracking é exponencial).  
+        Para animação e todas soluções, N até 10 é suave.
+    </div>
+
+    <hr>
+
+    <h2>Operações rápidas</h2>
+    <div class="top-buttons">
+        <button class="small" onclick="solveSingle()">1 solução</button>
+        <button class="small" onclick="solveAll()">Todas soluções</button>
+        <button class="small" onclick="resetBoard()">Limpar</button>
+        <button class="small" onclick="toggleDark()">🌙 Dark</button>
+    </div>
+
+    <div id="legend">
+        <span class="l-try">Tentativa</span>
+        <span class="l-conflict">Conflito</span>
+        <span class="l-place">Colocada</span>
+        <span class="l-remove">Backtrack</span>
+    </div>
+
+    <hr>
+
+    <h2>Modo passo a passo</h2>
+    <button onclick="prepareSteps()">Gerar passos</button>
+    <button class="small" onclick="prevStep()">⏮ Passo anterior</button>
+    <button class="small" onclick="nextStep()">⏭ Próximo passo</button>
+    <button class="small" onclick="togglePlay()">▶ Play/Pause</button>
+
+    <label for="speed">Velocidade (ms por passo)</label>
+    <select id="speed">
+        <option value="60">Muito rápido</option>
+        <option value="150" selected>Rápido</option>
+        <option value="350">Médio</option>
+        <option value="800">Lento</option>
+    </select>
+
+    <div id="status"></div>
+    <div id="step-info"></div>
+
+    <hr>
+
+    <h2>Soluções encontradas</h2>
+    <button class="small" onclick="prevSolution()">◀ Anterior</button>
+    <button class="small" onclick="nextSolution()">Próxima ▶</button>
+    <div id="solutions-info" style="margin-top:6px;font-size:13px;"></div>
+
+    <hr>
+
+    <h2>Resumo teórico (pro seminário 😏)</h2>
+    <div id="explanation">
+        O problema das <b>N-Rainhas</b> pede posicionar N rainhas em um tabuleiro N×N
+        de forma que nenhuma ataque outra (sem compartilhar linha, coluna ou diagonal).<br><br>
+        Ele é um exemplo clássico de problema da classe <b>NP</b>:
+        se alguém te der uma configuração pronta, você consegue verificar
+        em tempo polinomial se há conflitos.<br><br>
+        Já encontrar uma solução em geral exige explorar um espaço exponencial
+        de possibilidades. Aqui usamos <b>backtracking</b>: colocamos rainhas
+        coluna a coluna, voltando (backtrack) quando chegamos a um beco sem saída.
+    </div>
+</div>
+
+<div id="board-container">
+    <div id="board"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
