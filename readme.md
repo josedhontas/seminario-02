@@ -19,7 +19,7 @@ Este repositório contém o material do Seminário 2 da disciplina **Projeto e A
 
 ---
 
-## 🌐 Demonstração Online (Versão JS)
+## 🌐 Demonstração Online (página web)
 O página web estática foi hospedado e pode ser acessado aqui:
 
 👉 **https://seminario-02.vercel.app**
