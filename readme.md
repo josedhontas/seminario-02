@@ -1,27 +1,52 @@
-# Seminário 1 – Projeto e Análise de Algoritmos  
-**Tema:** Problema n rainhas com backtracking  
+# Seminário 2 – Projeto e Análise de Algoritmos  
+**Tema:** Problema das N-Rainhas com Backtracking  
 **Professor:** Leonardo Nogueira Matos  
 **Aluno:** José Dhonatas Alves Sales  
 
-## 🎯 Objetivo  
-Este repositório contém o material do Seminário 2 da disciplina **Projeto e Análise de Algoritmos**.  
+---
 
-O foco do trabalho é apresentar o problema, mostrar como o algoritmo o resolve e fornecer um exemplo funcional em código.  
+## 🎯 Objetivo
+Este repositório contém o material do Seminário 2 da disciplina **Projeto e Análise de Algoritmos**.
 
-## 📂 Conteúdo  
+---
+
+## 📂 Conteúdo do Repositório
+
 - `slides/` → Slides em PDF utilizados na apresentação  
-- `codigo/` → Código-fonte implementado em Python (com exemplo de execução)  
-- `src/` → Código-fonte implementado em JS interativo, abra apenas o o index html para executar, não precisa de nada. 
+- `codigo/` → Código-fonte implementado em **Python**  
+- `src/` → Implementação completa em **JavaScript + HTML + CSS**  
+  - Para executar: **basta abrir o arquivo `index.html`** no navegador.
+
+---
+
+## 🌐 Demonstração Online (Versão JS)
+O código JavaScript foi hospedado e pode ser acessado aqui:
+
+👉 **https://seminario-02.vercel.app**
 
 
-## ▶️ Vídeo da Apresentação  
+A versão online permite:
+- escolher o valor de N,
+- ver o tabuleiro,
+- acompanhar o passo a passo,
+- navegar entre soluções.
+
+---
+
+## ▶️ Vídeo da Apresentação
 [Assista no YouTube clicando aqui](https://www.youtube.com/watch?v=2UfaKUKQUCU)  
 Ou acesse: https://www.youtube.com/watch?v=2UfaKUKQUCU
-## 👨‍💻 Como executar o código  
+
+---
+
+## 👨‍💻 Como Executar o Código
+
+### 🔵 Python (solução com backtracking)
+
 ```bash
 # Clone o repositório
 git clone https://github.com/josedhontas/seminario-02.git
 cd seminario-02/codigo
 
-# Execute (em Python)
+# Execute
 python main.py
