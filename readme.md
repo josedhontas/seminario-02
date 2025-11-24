@@ -15,8 +15,8 @@ O foco do trabalho é apresentar o problema, mostrar como o algoritmo o resolve 
 
 
 ## ▶️ Vídeo da Apresentação  
-[Assista no YouTube clicando aqui](https://youtu.be/PLuLjIowyqU)  
-Ou acesse: https://youtu.be/PLuLjIowyqU
+[Assista no YouTube clicando aqui](https://www.youtube.com/watch?v=2UfaKUKQUCU)  
+Ou acesse: https://www.youtube.com/watch?v=2UfaKUKQUCU
 ## 👨‍💻 Como executar o código  
 ```bash
 # Clone o repositório
