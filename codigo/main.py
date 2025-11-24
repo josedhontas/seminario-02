@@ -45,10 +45,16 @@ def resolver_n_rainhas(n):
     return solucoes
 
 
+
+
 if __name__ == "__main__":
-    n = int(input())
+    n = 4
     solucoes = resolver_n_rainhas(n)
-    for s in solucoes:
-        for linha in s:
+
+    print(f"Soluções para N = {n}:\n")
+
+    for idx, sol in enumerate(solucoes, 1):
+        print(f"Solução {idx}:")
+        for linha in sol:
             print(linha)
         print()
