@@ -48,7 +48,7 @@ def resolver_n_rainhas(n):
 
 
 if __name__ == "__main__":
-    n = 4
+    n = 8
     solucoes = resolver_n_rainhas(n)
 
     print(f"Soluções para N = {n}:\n")

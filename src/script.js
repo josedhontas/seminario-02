@@ -247,7 +247,6 @@ function prevStep() {
     showStep();
 }
 
-/* PLAY / PAUSE */
 function togglePlay() {
     if (playTimer) {
         stopPlay();

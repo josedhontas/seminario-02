@@ -29,7 +29,6 @@ body {
     transition: background 0.2s;
 }
 
-/* SIDEBAR */
 #sidebar {
     width: 320px;
     background: var(--sidebar-bg);
@@ -123,7 +122,6 @@ hr {
     border-top: 1px solid #555;
 }
 
-/* BOARD */
 #board-container {
     flex: 1;
     display: flex;
