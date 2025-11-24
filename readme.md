@@ -4,7 +4,7 @@
 **Aluno:** José Dhonatas Alves Sales  
 
 ## 🎯 Objetivo  
-Este repositório contém o material do Seminário 1 da disciplina **Projeto e Análise de Algoritmos**.  
+Este repositório contém o material do Seminário 2 da disciplina **Projeto e Análise de Algoritmos**.  
 
 O foco do trabalho é apresentar o problema, mostrar como o algoritmo o resolve e fornecer um exemplo funcional em código.  
 
@@ -15,13 +15,13 @@ O foco do trabalho é apresentar o problema, mostrar como o algoritmo o resolve 
 
 
 ## ▶️ Vídeo da Apresentação  
-[Assista no YouTube clicando aqui](https://youtu.be/1IoU4zVQArM)  
-Ou acesse: https://youtu.be/1IoU4zVQArM
+[Assista no YouTube clicando aqui](https://youtu.be/PLuLjIowyqU)  
+Ou acesse: https://youtu.be/PLuLjIowyqU
 ## 👨‍💻 Como executar o código  
 ```bash
 # Clone o repositório
 git clone https://github.com/josedhontas/seminario-02.git
-cd seminario-01/codigo
+cd seminario-02/codigo
 
 # Execute (em Python)
 python main.py
